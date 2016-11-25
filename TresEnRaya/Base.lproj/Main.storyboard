@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TresEnRaya" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +17,138 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turno 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usM-bg-SSd">
+                                <frame key="frameInset" minX="16" minY="38" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4t-R2-IFb">
+                                <frame key="frameInset" minX="16" minY="76" width="244" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iZR-pY-I1Y">
+                                <frame key="frameInset" minX="36" minY="187" width="303" height="293"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3raya.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qXI-p9-ylO">
+                                        <frame key="frameInset" minX="-18" minY="-32" width="328" height="340"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmM-yc-YwC">
+                                        <frame key="frameInset" minX="8" minY="8" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JL1-a6-Ii9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8WG-QO-q1X">
+                                        <frame key="frameInset" minX="107" minY="8" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ech-hL-7x3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8p-AF-pRf">
+                                        <frame key="frameInset" minX="213" minY="8" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XIg-iA-664"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWJ-Qe-YgO">
+                                        <frame key="frameInset" minX="8" minY="103" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cgx-gq-7Ra"/>
+                                        </connections>
+                                    </button>
+                                    <button autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJj-cf-scK">
+                                        <frame key="frameInset" minX="107" minY="103" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vdX-mO-BbF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBF-Hz-sv3">
+                                        <frame key="frameInset" minX="213" minY="103" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sCX-sZ-EID"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fw9-e0-b7o">
+                                        <frame key="frameInset" minX="8" minY="210" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QbU-wX-hKt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bzg-7U-rvc">
+                                        <frame key="frameInset" minX="107" minY="210" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQ9-dy-OnL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igv-9R-35L">
+                                        <frame key="frameInset" minX="213" minY="210" width="70" height="70"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="accionBotones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gvo-Ih-Fuf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Fw9-e0-b7o" secondAttribute="bottom" constant="13" id="3GQ-8E-G5T"/>
+                                    <constraint firstItem="ZWJ-Qe-YgO" firstAttribute="centerY" secondItem="iZR-pY-I1Y" secondAttribute="centerY" id="7HK-2h-e30"/>
+                                    <constraint firstItem="fJj-cf-scK" firstAttribute="centerY" secondItem="iZR-pY-I1Y" secondAttribute="centerY" id="97U-Vy-VcQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="igv-9R-35L" secondAttribute="bottom" constant="13" id="AFS-QZ-av7"/>
+                                    <constraint firstItem="hmM-yc-YwC" firstAttribute="top" secondItem="iZR-pY-I1Y" secondAttribute="top" constant="8" id="BhL-Rc-SUU"/>
+                                    <constraint firstItem="hmM-yc-YwC" firstAttribute="leading" secondItem="iZR-pY-I1Y" secondAttribute="leading" constant="8" id="FGV-Fs-eH2"/>
+                                    <constraint firstAttribute="trailing" secondItem="tBF-Hz-sv3" secondAttribute="trailing" constant="20" id="O6V-Wd-wMo"/>
+                                    <constraint firstItem="ZWJ-Qe-YgO" firstAttribute="leading" secondItem="iZR-pY-I1Y" secondAttribute="leading" constant="8" id="RUy-ko-bcJ"/>
+                                    <constraint firstItem="tBF-Hz-sv3" firstAttribute="centerY" secondItem="iZR-pY-I1Y" secondAttribute="centerY" id="WyO-S3-5t5"/>
+                                    <constraint firstItem="Bzg-7U-rvc" firstAttribute="centerX" secondItem="iZR-pY-I1Y" secondAttribute="centerX" id="gQ1-cb-6qg"/>
+                                    <constraint firstAttribute="trailing" secondItem="igv-9R-35L" secondAttribute="trailing" constant="20" id="gdB-C4-kkG"/>
+                                    <constraint firstItem="8WG-QO-q1X" firstAttribute="centerX" secondItem="iZR-pY-I1Y" secondAttribute="centerX" id="lKD-F4-rFt"/>
+                                    <constraint firstItem="fJj-cf-scK" firstAttribute="centerX" secondItem="iZR-pY-I1Y" secondAttribute="centerX" id="lRy-Ng-CsN"/>
+                                    <constraint firstItem="Fw9-e0-b7o" firstAttribute="leading" secondItem="iZR-pY-I1Y" secondAttribute="leading" constant="8" id="qBK-H1-VIS"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y8p-AF-pRf" secondAttribute="trailing" constant="20" id="qgc-Oi-dFq"/>
+                                    <constraint firstItem="8WG-QO-q1X" firstAttribute="top" secondItem="iZR-pY-I1Y" secondAttribute="top" constant="8" id="r93-7P-J4A"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bzg-7U-rvc" secondAttribute="bottom" constant="13" id="wBq-eF-PAd"/>
+                                    <constraint firstItem="Y8p-AF-pRf" firstAttribute="top" secondItem="iZR-pY-I1Y" secondAttribute="top" constant="8" id="zBa-QQ-oMw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="b1" destination="hmM-yc-YwC" id="c1n-bJ-0o2"/>
+                        <outlet property="b2" destination="8WG-QO-q1X" id="MiR-QF-2y3"/>
+                        <outlet property="b3" destination="Y8p-AF-pRf" id="Vvw-gE-Onb"/>
+                        <outlet property="b4" destination="ZWJ-Qe-YgO" id="S1c-UE-0Ql"/>
+                        <outlet property="b5" destination="fJj-cf-scK" id="tLs-fh-Wfg"/>
+                        <outlet property="b6" destination="tBF-Hz-sv3" id="qq0-kL-0Qk"/>
+                        <outlet property="b7" destination="Fw9-e0-b7o" id="Igt-2j-UX2"/>
+                        <outlet property="b8" destination="Bzg-7U-rvc" id="M2B-iE-Err"/>
+                        <outlet property="b9" destination="igv-9R-35L" id="lMZ-Ru-P8A"/>
+                        <outlet property="textoInfo" destination="h4t-R2-IFb" id="W8I-Fu-f4a"/>
+                        <outlet property="textoTurno" destination="usM-bg-SSd" id="ZOh-oT-WA2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="3raya.jpg" width="522" height="464"/>
+    </resources>
 </document>

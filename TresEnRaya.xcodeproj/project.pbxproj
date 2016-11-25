@@ -14,6 +14,9 @@
 		339684C61DE75D4B005C6ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339684C41DE75D4B005C6ABB /* LaunchScreen.storyboard */; };
 		339684D11DE75D4B005C6ABB /* TresEnRayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339684D01DE75D4B005C6ABB /* TresEnRayaTests.swift */; };
 		339684DC1DE75D4B005C6ABB /* TresEnRayaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339684DB1DE75D4B005C6ABB /* TresEnRayaUITests.swift */; };
+		339684EA1DE75DCC005C6ABB /* 3raya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 339684E91DE75DCC005C6ABB /* 3raya.jpg */; };
+		339684EC1DE763AA005C6ABB /* Torracat.png in Resources */ = {isa = PBXBuildFile; fileRef = 339684EB1DE763AA005C6ABB /* Torracat.png */; };
+		339684EE1DE763B0005C6ABB /* Rowlet.png in Resources */ = {isa = PBXBuildFile; fileRef = 339684ED1DE763B0005C6ABB /* Rowlet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		339684D71DE75D4B005C6ABB /* TresEnRayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TresEnRayaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		339684DB1DE75D4B005C6ABB /* TresEnRayaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TresEnRayaUITests.swift; sourceTree = "<group>"; };
 		339684DD1DE75D4B005C6ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339684E91DE75DCC005C6ABB /* 3raya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3raya.jpg; sourceTree = "<group>"; };
+		339684EB1DE763AA005C6ABB /* Torracat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Torracat.png; sourceTree = "<group>"; };
+		339684ED1DE763B0005C6ABB /* Rowlet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rowlet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				339684BB1DE75D4B005C6ABB /* AppDelegate.swift */,
 				339684BD1DE75D4B005C6ABB /* ViewController.swift */,
 				339684BF1DE75D4B005C6ABB /* Main.storyboard */,
+				339684E91DE75DCC005C6ABB /* 3raya.jpg */,
+				339684ED1DE763B0005C6ABB /* Rowlet.png */,
+				339684EB1DE763AA005C6ABB /* Torracat.png */,
 				339684C21DE75D4B005C6ABB /* Assets.xcassets */,
 				339684C41DE75D4B005C6ABB /* LaunchScreen.storyboard */,
 				339684C71DE75D4B005C6ABB /* Info.plist */,
@@ -232,7 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339684EA1DE75DCC005C6ABB /* 3raya.jpg in Resources */,
 				339684C61DE75D4B005C6ABB /* LaunchScreen.storyboard in Resources */,
+				339684EE1DE763B0005C6ABB /* Rowlet.png in Resources */,
+				339684EC1DE763AA005C6ABB /* Torracat.png in Resources */,
 				339684C31DE75D4B005C6ABB /* Assets.xcassets in Resources */,
 				339684C11DE75D4B005C6ABB /* Main.storyboard in Resources */,
 			);
